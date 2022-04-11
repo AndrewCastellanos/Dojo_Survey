@@ -1,0 +1,41 @@
+#box{
+    padding: 100px;
+    padding-top: 50px;
+    padding-right: 500px;
+    margin: 200px;
+    margin-top: 50px;
+    border: 2px solid black;
+    font-size: xx-large;
+    background-color: #373e43;
+    color: white;
+}
+input{
+    border: 2px solid black;
+    font-size: xx-large;
+}
+select{
+    border: 2px solid black;
+    font-size: xx-large;
+    width: 350px;
+}
+#comment{
+    border: 2px solid black;
+    width: 1000px;
+    height: 300px;
+    margin-right: 50px;
+}
+#submit{
+    margin-left: 890px;
+    background-color: yellow;
+    color: black;
+}
+table{
+    margin-left: 50px;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    color: yellow;
+}

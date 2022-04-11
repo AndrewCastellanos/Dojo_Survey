@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        
+        <div id="box">
+            <h1>Dojo Survey</h1>
+            <form action='/result' method='post'>
+                <p>Your Name: <input type="text" name="name"/></p>
+                <p>Dojo Location:
+                    <select name="Dojo_Location">
+                        <option value="-- Select Location ">-- Select Location--</option>
+                        <option value="Burbank">Burbank</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+                <p>Favorite Language:
+                    <select name="Favorite_Language">
+                        <option value="-- Select Language ">-- Select Language--</option>
+                        <option value="Python">Python</option>
+                        <option value="Html">Html</option>
+                        <option value="CSS">CSS</option>
+                        <option value="C#">C#</option>
+                        <option value="Java">Java</option>
+                    </select>
+                </p>
+                <p>Comment (optional): </p>
+                <textarea type="text" name="comment" id="comment"></textarea><br> -->
+                <input type='submit' value='submit'id="submit"/>
+            </form>
+        </div>
+    </body>
+</html>
